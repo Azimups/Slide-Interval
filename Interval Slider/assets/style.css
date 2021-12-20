@@ -1,0 +1,102 @@
+body {
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.container .slides {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .slides .first-slide {
+  width: 240px;
+  height: 157px;
+  background-color: grey;
+  position: relative;
+  overflow: hidden;
+}
+
+.container .slides .first-slide .first-upload img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .slides .second-slide {
+  width: 240px;
+  height: 157px;
+  background-color: grey;
+  position: relative;
+}
+
+.container .slides .second-slide .second-upload img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .slides .third-slide {
+  width: 240px;
+  height: 157px;
+  background-color: grey;
+  position: relative;
+}
+
+.container .slides .third-slide .third-upload img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .slides form input {
+  display: none;
+}
+
+.container .slides i {
+  font-size: 32px;
+  color: white;
+  position: absolute;
+  top: 42%;
+  left: 45%;
+}
+
+.slide-show {
+  position: absolute;
+  top: 10%;
+  left: 14%;
+  width: 100%;
+}
+
+.slide-show .my-slides {
+  display: none;
+}
+
+.slide-show .btn {
+  font-size: 28px;
+  position: absolute;
+  top: 50%;
+  color: white;
+  background-color: black;
+  border: none;
+  display: none;
+}
+
+.slide-show p {
+  color: red;
+  position: absolute;
+  top: -50px;
+  letter-spacing: 2px;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

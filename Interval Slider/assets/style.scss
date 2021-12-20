@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+.container{
+    width:100%;
+    height:600px;
+    position: relative;
+    .slides{
+        width:100%;
+        height:100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .first-slide{
+            width:240px;
+            height: 157px;
+            background-color: grey;
+            position: relative;
+            overflow: hidden;
+            .first-upload{
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .second-slide{
+            width:240px;
+            height: 157px;
+            background-color: grey;
+            position: relative;
+            .second-upload{
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .third-slide{
+            width:240px;
+            height: 157px;
+            background-color: grey;
+            position: relative;
+            .third-upload{
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        form{
+            input{
+                display: none;
+            }
+        }
+        i{
+            font-size: 32px;
+            color: white;
+            position: absolute;
+            top: 42%;
+            left: 45%;
+        }
+    }
+}
+.slide-show{
+    position: absolute;
+    top: 10%;
+    left: 14%;
+    width: 100%;
+    .my-slides{
+        display: none;
+    }
+    .btn{
+        font-size: 28px;
+        position: absolute;
+        top: 50%;
+        color: white;
+        background-color:black;
+        border: none;
+        display: none;
+    }
+    p{
+        color: rgb(255, 0, 0);
+        position: absolute;
+        top: -50px;
+        letter-spacing: 2px;
+        display: none;
+    }
+}
